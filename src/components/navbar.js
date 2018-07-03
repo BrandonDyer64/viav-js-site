@@ -11,7 +11,7 @@ class Navbar extends Component {
               src="https://cdn.discordapp.com/attachments/446202984372895758/450414797952122900/1_round.png"
               style={{ width: '30px' }}
             />
-            &nbsp;Viav
+            &nbsp;Viav.js
           </Link>
 
           <button
@@ -31,15 +31,15 @@ class Navbar extends Component {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/add">
-                  Add
+                <Link className="nav-link" to="/documentation">
+                  Documentation
                 </Link>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link"
                   target="_blank"
-                  href="https://discord.gg/EkDSE5e"
+                  href="https://discord.gg/A23ZE7x"
                 >
                   Community
                 </a>
@@ -59,9 +59,9 @@ class Navbar extends Component {
                 <a
                   className="nav-link"
                   target="_blank"
-                  href="https://github.com/BrandonDyer64/Viav"
+                  href="https://gitlab.com/BrandonDyer64/viav-lib"
                 >
-                  GitHub
+                  Repo
                 </a>
               </li>
             </ul>

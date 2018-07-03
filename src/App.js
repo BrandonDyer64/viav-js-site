@@ -4,7 +4,7 @@ import './App.css'
 import Navbar from './components/navbar'
 
 import Home from './pages/home'
-import Add from './pages/add'
+import Documentation from './pages/documentation'
 import Features from './pages/features'
 import NotFound from './pages/notFound'
 
@@ -19,7 +19,7 @@ class App extends Component {
           <div className="container">
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route path="/add" component={Add} />
+              <Route path="/documentation" component={Documentation} />
               <Route path="/features" component={Features} />
               <Route path="*" component={NotFound} />
             </Switch>

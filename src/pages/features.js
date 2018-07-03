@@ -12,7 +12,7 @@ class App extends Component {
       <div className="features-page">
         <section className="row vcenter-parent">
           <div className="col-md-6">
-            <h3>Automatic Voice Channels</h3>
+            <h3>Plugin Based</h3>
             <p>
               <strong>1</strong> Voice Channel = <strong>Infinite</strong> Voice
               Channels
@@ -24,9 +24,7 @@ class App extends Component {
             </p>
           </div>
           <div className="col-md-6 channels-img-parent">
-            <div className="channels-img">
-              <img src={channelsImg} />
-            </div>
+            <div className="channels-img" />
           </div>
         </section>
         <section className="row vcenter-parent">
