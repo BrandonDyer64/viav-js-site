@@ -8,7 +8,7 @@ class Navbar extends Component {
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img
-              src="https://cdn.discordapp.com/attachments/446202984372895758/450414797952122900/1_round.png"
+              src="https://cdn.discordapp.com/attachments/446202984372895758/463944768574062593/js.png"
               style={{ width: '30px' }}
             />
             &nbsp;Viav.js
@@ -62,6 +62,11 @@ class Navbar extends Component {
                   href="https://gitlab.com/BrandonDyer64/viav-lib"
                 >
                   Repo
+                </a>
+              </li>
+              <li>
+                <a className="nav-link" target="_blank" href="https://viav.app">
+                  Viav
                 </a>
               </li>
             </ul>
