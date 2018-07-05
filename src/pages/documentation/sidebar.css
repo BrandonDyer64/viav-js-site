@@ -1,0 +1,18 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: stretch;
+}
+
+.sidebar {
+  --width: 250px;
+  width: var(--width);
+  min-width: var(--width);
+  max-width: var(--width);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items:flex-start;
+  justify-content: flex-start;
+}

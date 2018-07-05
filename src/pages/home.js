@@ -11,7 +11,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <br />
           <br />
-          <h2 className="App-title">Discord.js, Meat Viav</h2>
+          <h2 className="App-title">Discord.js, Meet Viav.</h2>
           <p style={{ maxWidth: '500px', margin: 'auto' }}>
             An open source library to fuel your bot.
           </p>

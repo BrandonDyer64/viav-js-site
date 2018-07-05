@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import '../App.css'
 import channelsImg from '../auto-channels-transparent.png'
 import radioImg from '../radio.png'
@@ -16,11 +16,6 @@ class App extends Component {
             <p>
               <strong>1</strong> Voice Channel = <strong>Infinite</strong> Voice
               Channels
-            </p>
-            <p>
-              No more servers filled with redundant channels. By adding and
-              removing voice channels when needed, Viav will keep track so you
-              don&#39;t have to.
             </p>
           </div>
           <div className="col-md-5 channels-img-parent">
@@ -56,24 +51,27 @@ class App extends Component {
           <div className="col-md-7">
             <h3>Temporary Responses</h3>
             <p>
-              Anything that Viav says in a text channel is temporary. When you
+              Anything that your bot says in a text channel is temporary. When you
               give the bot a command the command message is instantly deleted
-              and Viav’s response is deleted shortly after it’s posted. No more
+              and your bot’s response is deleted shortly after it’s posted. No more
               clutter. No more{' '}
               <i>
                 <b>#bot-spam</b>
               </i>{' '}
               channels.
             </p>
+            <p>
+              This feature is configurable by both you and the guild ops.
+            </p>
           </div>
         </section>
         <section style={{ textAlign: 'center', marginBottom: '60px' }}>
-          <a
+          <Link
             className="btn btn-primary btn-large"
-            href="https://discordapp.com/oauth2/authorize?client_id=446151195338473485&permissions=66321471&scope=bot"
+            to="/documentation"
           >
-            Add Viav
-          </a>
+            Install
+          </Link>
         </section>
       </div>
     )
