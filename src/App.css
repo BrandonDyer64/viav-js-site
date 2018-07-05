@@ -36,7 +36,13 @@ h3 {
 }
 
 pre {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   color: white;
+  background: var(--gray-dark);
+  border: 1px solid var(--gray);
+  border-radius: 5px;
 }
 
 #root {
